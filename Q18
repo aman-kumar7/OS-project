@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main ()
+{
+	int student[10];
+    int gifts[10];
+    int i,j,temp1,temp;
+    printf("Enter the no of gifts.\n\n");
+    for( i=0;i<10;i++){
+        printf("Enter no of gifts Student %d will have: ",i+1);
+        scanf("%d",&gifts[i]);
+        
+    }
+    
+    for(i=0;i<10;i++)
+	{
+        student[i]=i+1;
+		}
+    for(i=0;i<10;i++){
+    	
+        for(j=i+1;j<10;j++){
+        	
+           if(gifts[i]<gifts[j]){
+           	
+               temp=gifts[i];
+               gifts[i]=gifts[j];
+               gifts[j]=temp;
+
+               temp1=student[i];
+               student[i]=student[j];
+               student[j]=temp1;
+           }
+        }
+    }
+    printf("\n\t\t\tOrder of billing\t\t\n\n");
+
+	printf("|\tStudent\t\t\t|\tNumber of Gifts\t|\n");
+   
+	for(i=0;i<10;i++)
+	{
+		printf("|\tStudents %d\t\t|\t\t%d\t|\n",student[i],gifts[i]);
+		}
+    
+}

@@ -1,6 +1,9 @@
 Question 18. Ten students (a,b,c,d,e,f,g,h,i,j) are going to attend an event. There are lots of gift shops, they all are going to the gift shops and randomly picking the gifts. 
 After picking the gifts they are randomly arriving in the billing counter. The accountant gives the preference to that student who has maximum number of gifts. 
 Create a C or Java program to define order of billed students?
+Solution : In this problem Ten students are there (a,b,c,d,e,f,g,h,i,j) and they are going to attend a event in which they will get any number of gifts from the gift shop and the billing will be done on the basis of number of gifts they have acquired.
+So the student with maximum no. of gifts will get the first chance of billing. 
+Hence here we can sort the process on the basis of brust time the process having more burst time will be executed first. 
 
 Question 45. If a teacher is being served and during the period when he is being served another teacher comes, then that teacher would get the service next. 
 This process might continue leading to increase in waiting time of students. Write a C program to ensure in your program that the waiting time of students is minimized. 

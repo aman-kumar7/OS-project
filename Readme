@@ -8,5 +8,8 @@ Hence here we can sort the process on the basis of brust time the process having
 Question 45. If a teacher is being served and during the period when he is being served another teacher comes, then that teacher would get the service next. 
 This process might continue leading to increase in waiting time of students. Write a C program to ensure in your program that the waiting time of students is minimized. 
 Assume values of arrival time, burst time by your own.
+Solution: In this question in if a teacher is being served and during the period when he is being served another teacher comes, then that teacher would get the service next. 
+So the waiting time for the students will be more to reduce we can use round robin algo to reduce the waiting time of the students. In round robin a minimum burst time will be allotted to every process in which they have to their some part of work after which the CPU will automatically shift to another process this loop keeps continuing until all process gets over. 
+So now the waiting time of the students will be less since they will to get the processor.
 
  
